@@ -11,6 +11,7 @@ import javafx.scene.control.MenuItem;
 import javafx.scene.control.ScrollPane;
 import javafx.scene.layout.VBox;
 
+import java.io.File;
 import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
@@ -42,7 +43,7 @@ public class HelloController implements Initializable {
 
     @FXML
     public void onMenuItemAboutAction() {
-        loadView("/com/example/erp/View/about-view.fxml");
+        loadView("src/main/java/com/example/erp/View/about-view.fxml");
     }
 
 
@@ -55,8 +56,8 @@ public class HelloController implements Initializable {
 
     public synchronized void loadView(String absoluteName){
         try{
-            URL url = getClass().getResource(absoluteName);
-
+            URL url = new File(absoluteName).toURI().toURL();
+//            URL url = getClass().getResource(absoluteName);
             if(url == null){
                 throw new IllegalStateException("FXML não encontrado " +  absoluteName);
             }
