@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f205ad42-82c4-497f-a269-6e5a91851c89" name="Changes" comment="Atualizando estrutura">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/erp/Controller/Alerts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/erp/Controller/Constraints.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/erp/MainApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/erp/View/about-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/erp/Controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/erp/Controller/HelloController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/erp/HelloApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/erp/View/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/erp/View/hello-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-    </list>
+    <list default="true" id="f205ad42-82c4-497f-a269-6e5a91851c89" name="Changes" comment="Atualizando estrutura/2" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -98,7 +87,7 @@
       <workItem from="1722296453602" duration="2716000" />
       <workItem from="1722306779543" duration="46000" />
       <workItem from="1722378371487" duration="100000" />
-      <workItem from="1722378484824" duration="13976000" />
+      <workItem from="1722378484824" duration="14019000" />
     </task>
     <task id="LOCAL-00001" summary="Atualizando estrutura">
       <option name="closed" value="true" />
@@ -108,7 +97,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722379482603</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Atualizando estrutura/2">
+      <option name="closed" value="true" />
+      <created>1722394434736</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1722394434736</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,6 +113,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Atualizando estrutura" />
-    <option name="LAST_COMMIT_MESSAGE" value="Atualizando estrutura" />
+    <MESSAGE value="Atualizando estrutura/2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Atualizando estrutura/2" />
   </component>
 </project>
