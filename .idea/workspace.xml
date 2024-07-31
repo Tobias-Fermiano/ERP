@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f205ad42-82c4-497f-a269-6e5a91851c89" name="Changes" comment="Atualizando estrutura/3">
+    <list default="true" id="f205ad42-82c4-497f-a269-6e5a91851c89" name="Changes" comment="Atualizando estrutura/4">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/erp/Controller/AboutController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/erp/Controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/erp/Controller/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/erp/Controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/erp/Controller/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/erp/MainApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/erp/MainApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/erp/View/about-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/erp/View/about-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/erp/View/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/erp/View/main-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,10 +25,16 @@
       <list>
         <option value="FxmlFile" />
         <option value="Class" />
+        <option value="JavaFXApplication" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
@@ -48,11 +58,11 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Application.HelloApplication.executor": "Run",
-    "Application.MainApplication.executor": "Debug",
+    "Application.MainApplication.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "dart.analysis.tool.window.visible": "false",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "Backup",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/Tobias Fermiano/OneDrive/Documentos/JavaFx",
     "node.js.detected.package.eslint": "true",
@@ -91,7 +101,8 @@
       <workItem from="1722306779543" duration="46000" />
       <workItem from="1722378371487" duration="100000" />
       <workItem from="1722378484824" duration="14019000" />
-      <workItem from="1722440455383" duration="740000" />
+      <workItem from="1722440455383" duration="1245000" />
+      <workItem from="1722463157244" duration="2076000" />
     </task>
     <task id="LOCAL-00001" summary="Atualizando estrutura">
       <option name="closed" value="true" />
@@ -117,7 +128,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722440570906</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Atualizando estrutura/4">
+      <option name="closed" value="true" />
+      <created>1722441345507</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1722441345507</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,17 +146,7 @@
     <MESSAGE value="Atualizando estrutura" />
     <MESSAGE value="Atualizando estrutura/2" />
     <MESSAGE value="Atualizando estrutura/3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Atualizando estrutura/3" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/example/erp/Controller/HelloController.java</url>
-          <line>58</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Atualizando estrutura/4" />
+    <option name="LAST_COMMIT_MESSAGE" value="Atualizando estrutura/4" />
   </component>
 </project>

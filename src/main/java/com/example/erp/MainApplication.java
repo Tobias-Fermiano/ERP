@@ -16,7 +16,7 @@ public class MainApplication extends Application {
 
     @Override
     public void start(Stage stage) throws IOException {
-        URL url = new File("src/main/java/com/example/erp/View/hello-view.fxml").toURI().toURL();
+        URL url = new File("src/main/java/com/example/erp/View/main-view.fxml").toURI().toURL();
         ScrollPane scrollPane = FXMLLoader.load(url);
 
         scrollPane.setFitToWidth(true);
