@@ -18,6 +18,9 @@ public class MainController implements Initializable {
     private MenuItem menuItemBuyer;
 
     @FXML
+    private MenuItem menuItemSearch;
+
+    @FXML
     private MenuItem menuItemDepartment;
 
     @FXML
