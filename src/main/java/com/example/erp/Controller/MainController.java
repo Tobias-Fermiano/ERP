@@ -38,6 +38,12 @@ public class MainController implements Initializable {
        aboutController.loadView("src/main/java/com/example/erp/View/about-view.fxml");
     }
 
+    @FXML
+    public void onMenuItemProdutoAction() {
+        ProdutoController ProdutoController = new ProdutoController();
+        ProdutoController.loadView("src/main/java/com/example/erp/View/produto-view.fxml");
+    }
+
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
 
