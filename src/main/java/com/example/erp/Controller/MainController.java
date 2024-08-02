@@ -4,6 +4,7 @@ import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.MenuItem;
 
+import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
 
@@ -13,15 +14,6 @@ public class MainController implements Initializable {
 
     @FXML
     private MenuItem menuItemSeller;
-
-    @FXML
-    private MenuItem menuItemBuyer;
-
-    @FXML
-    private MenuItem menuItemSearch;
-
-    @FXML
-    private MenuItem menuItemAdd;
 
     @FXML
     private MenuItem menuItemDepartment;
@@ -42,9 +34,12 @@ public class MainController implements Initializable {
     }
 
     @FXML
-    public void onMenuItemAboutAction() {
+    public void onMenuItemAboutAction() throws IOException {
        AboutController aboutController = new AboutController();
        aboutController.loadView("src/main/java/com/example/erp/View/about-view.fxml");
+        aboutController.carregaImagem("src/main/java/com/example/erp/Fotos/001-definicoes.png");
+
+
     }
 
     @FXML

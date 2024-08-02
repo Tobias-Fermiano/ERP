@@ -12,17 +12,26 @@ import javafx.scene.layout.VBox;
 import java.io.File;
 import java.io.IOException;
 import java.net.URL;
+import java.util.ArrayList;
 import java.util.ResourceBundle;
 
 public class AboutController implements Initializable {
 
+    ArrayList<String> imagens = new ArrayList<>();
 
+    String imagem;
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
 
     }
 
+    public void carregaImagem(String imagem) throws IOException {
+        if(imagem != null){
+            System.out.println("Carregando imagem");
+        }
+        //ImageIcon icon = new ImageIcon(this.getClass().getResource(imagem));
+    }
 
     //Criando uma nova tela e aplicando a classe de verificação de erro
 
