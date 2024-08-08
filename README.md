@@ -1,2 +1,2 @@
-# ERP
-Criando um mini ERP utilizando JavaFX
+# System Project
+Criando um mini sistema utilizando JavaFX
